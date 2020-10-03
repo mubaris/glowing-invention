@@ -201,7 +201,7 @@ contract UniswapHelpers is Helpers {
                 sellAmt,
                 paths
             );
-            buyAmt = amts[1];
+            buyAmt = amts[amts.length - 1];
         } else {
             buyAmt = 0;
         }

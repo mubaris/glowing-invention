@@ -18,12 +18,12 @@
  *
  */
 
-require('dotenv').config()
 const HDWalletProvider = require('@truffle/hdwallet-provider');
+require('dotenv').config();
 //
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
-const mnemonic = process.env.MNEMONIC
+const mnemonic = process.env.MNEMONIC;
 
 module.exports = {
   /**
@@ -40,7 +40,7 @@ module.exports = {
 
     rinkeby: {
       provider: function() {
-        return new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/v3/" + process.env.INFURA)
+        return new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/${process.env.INFURA}`)
       },
       network_id: 4,
       skipDryRun: true,
