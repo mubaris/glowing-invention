@@ -19,4 +19,4 @@ let targets = [uniswapConnector,uniswapConnector];
 
 let datas = [web3.eth.abi.encodeFunctionCall(sellV, [usdt, eth, 1235450, 363708, sellPath]),web3.eth.abi.encodeFunctionCall(buyV, [mkr, eth, 1235450, 64788730, buyPath])]; // buyAddr, sellAddr, sellAmt/buyAmt, expected, paths[]
 
-acc.cast(targets, datas, {value: 66024180});
+acc.cast(targets, datas, {value: 76024180});
