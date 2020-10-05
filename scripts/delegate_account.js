@@ -27,12 +27,12 @@ const buyPath = [weth, dai, mkr];
 
 const targets = [
     uniswapConnector,
-    // uniswapConnector
+    uniswapConnector
 ];
 
 const datas = [
     web3.eth.abi.encodeFunctionCall(sellV, [usdt, eth, 1235450, 363708, sellPath]),
-    // web3.eth.abi.encodeFunctionCall(buyV, [mkr, eth, 1235450, 6231354, buyPath])
+    web3.eth.abi.encodeFunctionCall(buyV, [mkr, eth, 1235450, 6231354, buyPath])
 ]; // buyAddr, sellAddr, sellAmt/buyAmt, expected, paths[]
 
 console.log(targets);
@@ -41,7 +41,7 @@ console.log(datas);
 const caller = async (contract, targets, datas) => {
     const accounts = await web3.eth.getAccounts();
     const fromAddress = accounts[0];
-    await contract.methods.cast(targets, datas).send({value: 1235450, from: fromAddress});
+    await contract.methods.cast(targets, datas).send({value: 76024180, from: fromAddress});
 }
 
 caller(contract, targets, datas);
