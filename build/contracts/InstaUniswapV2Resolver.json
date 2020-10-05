@@ -55254,12 +55254,12 @@
     "4": {
       "events": {},
       "links": {},
-      "address": "0xf89b7E1e650968B616F2bb58DEE08D0Ea6773bfc",
-      "transactionHash": "0xb1ef98a894dffc58f3bffdfc54d171273b14891eb49ec89c4f2f120020971c4b"
+      "address": "0x259fEC9063a53BeF8f7d6616003D6ae1376BbeA5",
+      "transactionHash": "0x96bd624862a5001eabc677004bc951ed20e30eda969522024ac2e9f0cca90e2f"
     }
   },
   "schemaVersion": "3.2.4",
-  "updatedAt": "2020-10-03T14:30:35.859Z",
+  "updatedAt": "2020-10-05T11:36:13.126Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {
