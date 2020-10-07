@@ -348,8 +348,9 @@ contract Resolver is UniswapHelpers {
         address buyAddr,
         address sellAddr,
         address[] memory tokens,
-        uint sellAmt
-    ) public view returns (address[] memory paths, uint buyAmt)
+        uint sellAmt,
+        uint slippage
+    ) public view returns (address[] memory paths, uint buyAmt, uint unitAmt)
     {
         (TokenInterface _buyAddr, TokenInterface _sellAddr) = changeEthAddress(buyAddr, sellAddr);
 
@@ -403,14 +404,17 @@ contract Resolver is UniswapHelpers {
                 }
             }
         }
+
+        unitAmt = getBuyUnitAmt(_buyAddr, buyAmt, _sellAddr, sellAmt, slippage);
     }
 
     function getOptimalBuyPath(
         address buyAddr,
         address sellAddr,
         address[] memory tokens,
-        uint buyAmt
-    ) public view returns (address[] memory paths, uint sellAmt)
+        uint buyAmt,
+        uint slippage
+    ) public view returns (address[] memory paths, uint sellAmt, uint unitAmt)
     {
         (TokenInterface _buyAddr, TokenInterface _sellAddr) = changeEthAddress(buyAddr, sellAddr);
 
@@ -464,6 +468,8 @@ contract Resolver is UniswapHelpers {
                 }
             }
         }
+
+        unitAmt = getSellUnitAmt(_sellAddr, sellAmt, _buyAddr, buyAmt, slippage);
     }
 }
 
