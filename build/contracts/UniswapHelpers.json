@@ -20,9 +20,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.0+commit.26b70077\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"connectorID\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"model\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{\"connectorID()\":{\"details\":\"Connector Details - needs to be changed before deployment\"}}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/e/Projects/tests/uni-resolver/contracts/UniswapController.sol\":\"UniswapHelpers\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/e/Projects/tests/uni-resolver/contracts/UniswapController.sol\":{\"keccak256\":\"0x4eb60c97066fe23cb3a491ab7f5cd8408b6e21a461cb2c3f484213bf6ebf1796\",\"urls\":[\"bzz-raw://0546ec4915962a6d3d9b6149eb98f5f6aaff92b50ec39f8eb922e70ea1fbac9f\",\"dweb:/ipfs/QmNMMZcvNwUeJNPyQbUvUxyLY47i1mc1HEf62awB6nSD6k\"]},\"/mnt/e/Projects/tests/uni-resolver/contracts/common/interfaces.sol\":{\"keccak256\":\"0x1e085b5a6108e39f6f45d27550156b1b1740377610b779f07c70835a8720e604\",\"urls\":[\"bzz-raw://8516a66bc9d7ba3c73da91d38efd7b65092a6532a4636d68e23349365f734c95\",\"dweb:/ipfs/QmUcT9nDwW7Adv4AQufpFELp2hHfnQoHFkrUL8fHwq1LFA\"]},\"/mnt/e/Projects/tests/uni-resolver/contracts/common/math.sol\":{\"keccak256\":\"0x5b4835307605a46e772d90a37680c98f624a6bf97890c262a7b7d49de66a35ef\",\"urls\":[\"bzz-raw://fe186ea5955dfb018994079d40bf5db8178ddd69e9c0738adf0531b4d953c425\",\"dweb:/ipfs/QmVPMvEX32yEbv1R7kwZncqSaDo6ufjewNr8nf2eZMdZBP\"]},\"/mnt/e/Projects/tests/uni-resolver/contracts/common/stores.sol\":{\"keccak256\":\"0x79f190daa42ae1193f2e26658249c857b600cacd9536140f6d999c46e967c383\",\"urls\":[\"bzz-raw://34181a3687c72c7a479f4d6b5b8e5bd04b6aa62df994a1a3933a370d1d43dc67\",\"dweb:/ipfs/QmUGbMLhwLjNakkPUB4Nd55ZWHc2kkTV9ub9y5Tg19QFPu\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x9a9cf02622cd7a64261b10534fc3260449da25c98c9e96d1b4ae8110a20e5806\",\"urls\":[\"bzz-raw://2df142592d1dc267d9549049ee3317fa190d2f87eaa565f86ab05ec83f7ab8f5\",\"dweb:/ipfs/QmSkJtcfWo7c42KnL5hho6GFxK6HRNV91XABx1P7xDtfLV\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50609e8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063eb15f78114602d575b600080fd5b60336050565b604051808381526020018281526020019250505060405180910390f35b6000806000808191508090508092508193505050909156fea26469706673582212204ef3d0f882dfc12e2f3c5c5d15ed3c61ac4658097bf36651678b3993254951cd64736f6c63430006000033",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063eb15f78114602d575b600080fd5b60336050565b604051808381526020018281526020019250505060405180910390f35b6000806000808191508090508092508193505050909156fea26469706673582212204ef3d0f882dfc12e2f3c5c5d15ed3c61ac4658097bf36651678b3993254951cd64736f6c63430006000033",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.0+commit.26b70077\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"connectorID\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"model\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{\"connectorID()\":{\"details\":\"Connector Details - needs to be changed before deployment\"}}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/e/Projects/tests/uni-resolver/contracts/UniswapController.sol\":\"UniswapHelpers\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/e/Projects/tests/uni-resolver/contracts/UniswapController.sol\":{\"keccak256\":\"0x4eb60c97066fe23cb3a491ab7f5cd8408b6e21a461cb2c3f484213bf6ebf1796\",\"urls\":[\"bzz-raw://0546ec4915962a6d3d9b6149eb98f5f6aaff92b50ec39f8eb922e70ea1fbac9f\",\"dweb:/ipfs/QmNMMZcvNwUeJNPyQbUvUxyLY47i1mc1HEf62awB6nSD6k\"]},\"/mnt/e/Projects/tests/uni-resolver/contracts/common/interfaces.sol\":{\"keccak256\":\"0x1e085b5a6108e39f6f45d27550156b1b1740377610b779f07c70835a8720e604\",\"urls\":[\"bzz-raw://8516a66bc9d7ba3c73da91d38efd7b65092a6532a4636d68e23349365f734c95\",\"dweb:/ipfs/QmUcT9nDwW7Adv4AQufpFELp2hHfnQoHFkrUL8fHwq1LFA\"]},\"/mnt/e/Projects/tests/uni-resolver/contracts/common/math.sol\":{\"keccak256\":\"0x5b4835307605a46e772d90a37680c98f624a6bf97890c262a7b7d49de66a35ef\",\"urls\":[\"bzz-raw://fe186ea5955dfb018994079d40bf5db8178ddd69e9c0738adf0531b4d953c425\",\"dweb:/ipfs/QmVPMvEX32yEbv1R7kwZncqSaDo6ufjewNr8nf2eZMdZBP\"]},\"/mnt/e/Projects/tests/uni-resolver/contracts/common/stores.sol\":{\"keccak256\":\"0x2d4fd9f4e5ac5c43bd1aafb4933266a6af5a0f5f5fa2c3fe63af4de272f01bb8\",\"urls\":[\"bzz-raw://935408776b17991ce296c74b7ea03bc4137183d718a8b59d2209fd7c2db314ac\",\"dweb:/ipfs/QmfAP3AJ5nLCxGhmLMitCTf6iYD9BTKRVy9qgLVzqkR1Hd\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x9a9cf02622cd7a64261b10534fc3260449da25c98c9e96d1b4ae8110a20e5806\",\"urls\":[\"bzz-raw://2df142592d1dc267d9549049ee3317fa190d2f87eaa565f86ab05ec83f7ab8f5\",\"dweb:/ipfs/QmSkJtcfWo7c42KnL5hho6GFxK6HRNV91XABx1P7xDtfLV\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50609e8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063eb15f78114602d575b600080fd5b60336050565b604051808381526020018281526020019250505060405180910390f35b6000806000808191508090508092508193505050909156fea2646970667358221220c8a67f83da3a08f85cc8f40d06ec113135ac03fb3ff88d18e73d54ea22f9279e64736f6c63430006000033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063eb15f78114602d575b600080fd5b60336050565b604051808381526020018281526020019250505060405180910390f35b6000806000808191508090508092508193505050909156fea2646970667358221220c8a67f83da3a08f85cc8f40d06ec113135ac03fb3ff88d18e73d54ea22f9279e64736f6c63430006000033",
   "sourceMap": "2417:3215:3:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;2417:3215:3;;;;;;;",
   "deployedSourceMap": "2417:3215:3:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;2417:3215:3;;;;;;;;;;;;;;;;;;;1448:95:6;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;1491:10;1503:7;1533:1;1536;1518:20;;;;;;;;;;;;;;1448:95;;:::o",
   "source": "pragma solidity ^0.6.0;\r\n\r\n// import files from common directory\r\nimport { TokenInterface , MemoryInterface, EventInterface} from \"./common/interfaces.sol\";\r\nimport { Stores } from \"./common/stores.sol\";\r\nimport { DSMath } from \"./common/math.sol\";\r\n\r\ninterface IUniswapV2Router02 {\r\n    function factory() external pure returns (address);\r\n    function WETH() external pure returns (address);\r\n\r\n    function addLiquidity(\r\n        address tokenA,\r\n        address tokenB,\r\n        uint amountADesired,\r\n        uint amountBDesired,\r\n        uint amountAMin,\r\n        uint amountBMin,\r\n        address to,\r\n        uint deadline\r\n    ) external returns (uint amountA, uint amountB, uint liquidity);\r\n    function removeLiquidity(\r\n        address tokenA,\r\n        address tokenB,\r\n        uint liquidity,\r\n        uint amountAMin,\r\n        uint amountBMin,\r\n        address to,\r\n        uint deadline\r\n    ) external returns (uint amountA, uint amountB);\r\n    function swapExactTokensForTokens(\r\n        uint amountIn,\r\n        uint amountOutMin,\r\n        address[] calldata path,\r\n        address to,\r\n        uint deadline\r\n    ) external returns (uint[] memory amounts);\r\n    function swapTokensForExactTokens(\r\n        uint amountOut,\r\n        uint amountInMax,\r\n        address[] calldata path,\r\n        address to,\r\n        uint deadline\r\n    ) external returns (uint[] memory amounts);\r\n\r\n    function quote(uint amountA, uint reserveA, uint reserveB) external pure returns (uint amountB);\r\n    function getAmountOut(uint amountIn, uint reserveIn, uint reserveOut) external pure returns (uint amountOut);\r\n    function getAmountIn(uint amountOut, uint reserveIn, uint reserveOut) external pure returns (uint amountIn);\r\n    function getAmountsOut(uint amountIn, address[] calldata path) external view returns (uint[] memory amounts);\r\n    function getAmountsIn(uint amountOut, address[] calldata path) external view returns (uint[] memory amounts);\r\n}\r\n\r\ninterface IUniswapV2Factory {\r\n  function getPair(address tokenA, address tokenB) external view returns (address pair);\r\n  function allPairs(uint) external view returns (address pair);\r\n  function allPairsLength() external view returns (uint);\r\n\r\n  function feeTo() external view returns (address);\r\n  function feeToSetter() external view returns (address);\r\n\r\n  function createPair(address tokenA, address tokenB) external returns (address pair);\r\n}\r\n\r\ncontract UniswapHelpers is Stores, DSMath {\r\n    /**\r\n     * @dev Return WETH address\r\n     */\r\n    function getAddressWETH() internal pure returns (address) {\r\n        return 0xc778417E063141139Fce010982780140Aa0cD5Ab;\r\n    }\r\n\r\n    /**\r\n     * @dev Return uniswap v2 router02 Address\r\n     */\r\n    function getUniswapAddr() internal pure returns (address) {\r\n        return 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D;\r\n    }\r\n\r\n    function convert18ToDec(uint _dec, uint256 _amt) internal pure returns (uint256 amt) {\r\n        amt = (_amt / 10 ** (18 - _dec));\r\n    }\r\n\r\n    function convertTo18(uint _dec, uint256 _amt) internal pure returns (uint256 amt) {\r\n        amt = mul(_amt, 10 ** (18 - _dec));\r\n    }\r\n\r\n    function getTokenBalace(address token) internal view returns (uint256 amt) {\r\n        amt = token == getEthAddr() ? address(this).balance : TokenInterface(token).balanceOf(address(this));\r\n    }\r\n\r\n    function changeEthAddress(address buy, address sell) internal pure returns(TokenInterface _buy, TokenInterface _sell){\r\n        _buy = buy == getEthAddr() ? TokenInterface(getAddressWETH()) : TokenInterface(buy);\r\n        _sell = sell == getEthAddr() ? TokenInterface(getAddressWETH()) : TokenInterface(sell);\r\n    }\r\n\r\n    function convertEthToWeth(TokenInterface token, uint amount) internal {\r\n        if(address(token) == getAddressWETH()) token.deposit.value(amount)();\r\n    }\r\n\r\n    function convertWethToEth(TokenInterface token, uint amount) internal {\r\n       if(address(token) == getAddressWETH()) {\r\n            token.approve(getAddressWETH(), amount);\r\n            token.withdraw(amount);\r\n        }\r\n    }\r\n\r\n    function getExpectedBuyAmt(\r\n        IUniswapV2Router02 router,\r\n        address[] memory paths,\r\n        uint sellAmt\r\n    ) internal view returns(uint buyAmt) {\r\n        uint[] memory amts = router.getAmountsOut(\r\n            sellAmt,\r\n            paths\r\n        );\r\n        buyAmt = amts[amts.length - 1];\r\n    }\r\n\r\n    function getExpectedSellAmt(\r\n        IUniswapV2Router02 router,\r\n        address[] memory paths,\r\n        uint buyAmt\r\n    ) internal view returns(uint sellAmt) {\r\n        uint[] memory amts = router.getAmountsIn(\r\n            buyAmt,\r\n            paths\r\n        );\r\n        sellAmt = amts[0];\r\n    }\r\n\r\n    function checkPair(\r\n        IUniswapV2Router02 router,\r\n        address[] memory paths\r\n    ) internal view {\r\n        address pair = IUniswapV2Factory(router.factory()).getPair(paths[0], paths[1]);\r\n        require(pair != address(0), \"No-exchange-address\");\r\n    }\r\n\r\n    function checkPaths(\r\n        IUniswapV2Router02 router,\r\n        address[] memory paths\r\n    ) internal view {\r\n        for (uint i; i < paths.length - 1; i++) {\r\n            require(paths[i] != paths[i + 1], \"Wrong-path\");\r\n            address pair = IUniswapV2Factory(router.factory()).getPair(paths[i], paths[i + 1]);\r\n            require(pair != address(0), \"No-exchange-address\");\r\n        }\r\n    }\r\n\r\n    function getPaths(\r\n        address buyAddr,\r\n        address sellAddr\r\n    ) internal pure returns(address[] memory paths) {\r\n        paths = new address[](2);\r\n        paths[0] = address(sellAddr);\r\n        paths[1] = address(buyAddr);\r\n    }\r\n}\r\n\r\ncontract LiquidityHelpers is UniswapHelpers {\r\n\r\n    function getMinAmount(\r\n        TokenInterface token,\r\n        uint amt,\r\n        uint slippage\r\n    ) internal view returns(uint minAmt) {\r\n        uint _amt18 = convertTo18(token.decimals(), amt);\r\n        minAmt = wmul(_amt18, sub(WAD, slippage));\r\n        minAmt = convert18ToDec(token.decimals(), minAmt);\r\n    }\r\n\r\n    function changeEthToWeth(\r\n        address[] memory tokens\r\n    ) internal pure returns(TokenInterface[] memory _tokens) {\r\n        _tokens = new TokenInterface[](2);\r\n        _tokens[0] = tokens[0] == getEthAddr() ? TokenInterface(getAddressWETH()) : TokenInterface(tokens[0]);\r\n        _tokens[1] = tokens[1] == getEthAddr() ? TokenInterface(getAddressWETH()) : TokenInterface(tokens[1]);\r\n    }\r\n\r\n    function _addLiquidity(\r\n        address tokenA,\r\n        address tokenB,\r\n        uint _amt,\r\n        uint unitAmt,\r\n        uint slippage\r\n    ) internal returns (uint _amtA, uint _amtB, uint _liquidity) {\r\n        IUniswapV2Router02 router = IUniswapV2Router02(getUniswapAddr());\r\n        (TokenInterface _tokenA, TokenInterface _tokenB) = changeEthAddress(tokenA, tokenB);\r\n\r\n        _amtA = _amt == uint(-1) ? getTokenBalace(tokenA) : _amt;\r\n        _amtB = convert18ToDec(_tokenB.decimals(), wmul(unitAmt, convertTo18(_tokenA.decimals(), _amtA)));\r\n\r\n        convertEthToWeth(_tokenA, _amtA);\r\n        convertEthToWeth(_tokenB, _amtB);\r\n        _tokenA.approve(address(router), _amtA);\r\n        _tokenB.approve(address(router), _amtB);\r\n\r\n       uint minAmtA = getMinAmount(_tokenA, _amtA, slippage);\r\n        uint minAmtB = getMinAmount(_tokenB, _amtB, slippage);\r\n       (_amtA, _amtB, _liquidity) = router.addLiquidity(\r\n            address(_tokenA),\r\n            address(_tokenB),\r\n            _amtA,\r\n            _amtB,\r\n            minAmtA,\r\n            minAmtB,\r\n            address(this),\r\n            now + 1\r\n        );\r\n    }\r\n\r\n    function _removeLiquidity(\r\n        address tokenA,\r\n        address tokenB,\r\n        uint _amt,\r\n        uint unitAmtA,\r\n        uint unitAmtB\r\n    ) internal returns (uint _amtA, uint _amtB, uint _uniAmt) {\r\n        IUniswapV2Router02 router;\r\n        TokenInterface _tokenA;\r\n        TokenInterface _tokenB;\r\n        (router, _tokenA, _tokenB, _uniAmt) = _getRemoveLiquidityData(\r\n            tokenA,\r\n            tokenB,\r\n            _amt\r\n        );\r\n        {\r\n        uint minAmtA = convert18ToDec(_tokenA.decimals(), wmul(unitAmtA, _uniAmt));\r\n        uint minAmtB = convert18ToDec(_tokenB.decimals(), wmul(unitAmtB, _uniAmt));\r\n        (_amtA, _amtB) = router.removeLiquidity(\r\n            address(_tokenA),\r\n            address(_tokenB),\r\n            _uniAmt,\r\n            minAmtA,\r\n            minAmtB,\r\n            address(this),\r\n            now + 1\r\n        );\r\n        }\r\n        convertWethToEth(_tokenA, _amtA);\r\n        convertWethToEth(_tokenB, _amtB);\r\n    }\r\n\r\n    function _getRemoveLiquidityData(\r\n        address tokenA,\r\n        address tokenB,\r\n        uint _amt\r\n    ) internal returns (IUniswapV2Router02 router, TokenInterface _tokenA, TokenInterface _tokenB, uint _uniAmt) {\r\n        router = IUniswapV2Router02(getUniswapAddr());\r\n        (_tokenA, _tokenB) = changeEthAddress(tokenA, tokenB);\r\n        address exchangeAddr = IUniswapV2Factory(router.factory()).getPair(address(_tokenA), address(_tokenB));\r\n        require(exchangeAddr != address(0), \"pair-not-found.\");\r\n\r\n        TokenInterface uniToken = TokenInterface(exchangeAddr);\r\n        _uniAmt = _amt == uint(-1) ? uniToken.balanceOf(address(this)) : _amt;\r\n        uniToken.approve(address(router), _uniAmt);\r\n    }\r\n}\r\n\r\ncontract UniswapLiquidity is LiquidityHelpers {\r\n    event LogDepositLiquidity(\r\n        address indexed tokenA,\r\n        address indexed tokenB,\r\n        uint amtA,\r\n        uint amtB,\r\n        uint uniAmount,\r\n        uint getId,\r\n        uint setId\r\n    );\r\n\r\n    event LogWithdrawLiquidity(\r\n        address indexed tokenA,\r\n        address indexed tokenB,\r\n        uint amountA,\r\n        uint amountB,\r\n        uint uniAmount,\r\n        uint getId,\r\n        uint[] setId\r\n    );\r\n\r\n    function emitDeposit(\r\n        address tokenA,\r\n        address tokenB,\r\n        uint _amtA,\r\n        uint _amtB,\r\n        uint _uniAmt,\r\n        uint getId,\r\n        uint setId\r\n    ) internal {\r\n        emit LogDepositLiquidity(\r\n            tokenA,\r\n            tokenB,\r\n            _amtA,\r\n            _amtB,\r\n            _uniAmt,\r\n            getId,\r\n            setId\r\n        );\r\n\r\n        bytes32 _eventCode = keccak256(\"LogDepositLiquidity(address,address,uint256,uint256,uint256,uint256,uint256)\");\r\n        bytes memory _eventParam = abi.encode(\r\n            tokenA,\r\n            tokenB,\r\n            _amtA,\r\n            _amtB,\r\n            _uniAmt,\r\n            getId,\r\n            setId\r\n        );\r\n        emitEvent(_eventCode, _eventParam);\r\n    }\r\n\r\n    function emitWithdraw(\r\n        address tokenA,\r\n        address tokenB,\r\n        uint _amtA,\r\n        uint _amtB,\r\n        uint _uniAmt,\r\n        uint getId,\r\n        uint[] memory setIds\r\n    ) internal {\r\n        emit LogWithdrawLiquidity(\r\n            tokenA,\r\n            tokenB,\r\n            _amtA,\r\n            _amtB,\r\n            _uniAmt,\r\n            getId,\r\n            setIds\r\n        );\r\n        bytes32 _eventCode = keccak256(\"LogWithdrawLiquidity(address,address,uint256,uint256,uint256,uint256,uint256[])\");\r\n        bytes memory _eventParam = abi.encode(\r\n            tokenA,\r\n            tokenB,\r\n            _amtA,\r\n            _amtB,\r\n            _uniAmt,\r\n            getId,\r\n            setIds\r\n        );\r\n        emitEvent(_eventCode, _eventParam);\r\n    }\r\n\r\n    /**\r\n     * @dev Deposit Liquidity.\r\n     * @param tokenA tokenA address.(For ETH: 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE)\r\n     * @param tokenB tokenB address.(For ETH: 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE)\r\n     * @param amtA tokenA amount.\r\n     * @param unitAmt unit amount of amtB/amtA with slippage.\r\n     * @param slippage slippage amount.\r\n     * @param getId Get token amount at this ID from `InstaMemory` Contract.\r\n     * @param setId Set token amount at this ID in `InstaMemory` Contract.\r\n    */\r\n    function deposit(\r\n        address tokenA,\r\n        address tokenB,\r\n        uint amtA,\r\n        uint unitAmt,\r\n        uint slippage,\r\n        uint getId,\r\n        uint setId\r\n    ) external payable {\r\n        uint _amt = getUint(getId, amtA);\r\n\r\n        (uint _amtA, uint _amtB, uint _uniAmt) = _addLiquidity(\r\n                                            tokenA,\r\n                                            tokenB,\r\n                                            _amt,\r\n                                            unitAmt,\r\n                                            slippage\r\n                                            );\r\n        setUint(setId, _uniAmt);\r\n        emitDeposit(tokenA, tokenB, _amtA, _amtB, _uniAmt, getId, setId);\r\n    }\r\n\r\n    /**\r\n     * @dev Withdraw Liquidity.\r\n     * @param tokenA tokenA address.(For ETH: 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE)\r\n     * @param tokenB tokenB address.(For ETH: 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE)\r\n     * @param uniAmt uni token amount.\r\n     * @param unitAmtA unit amount of amtA/uniAmt with slippage.\r\n     * @param unitAmtB unit amount of amtB/uniAmt with slippage.\r\n     * @param getId Get token amount at this ID from `InstaMemory` Contract.\r\n     * @param setIds Set token amounts at this IDs in `InstaMemory` Contract.\r\n    */\r\n    function withdraw(\r\n        address tokenA,\r\n        address tokenB,\r\n        uint uniAmt,\r\n        uint unitAmtA,\r\n        uint unitAmtB,\r\n        uint getId,\r\n        uint[] calldata setIds\r\n    ) external payable {\r\n        uint _amt = getUint(getId, uniAmt);\r\n\r\n        (uint _amtA, uint _amtB, uint _uniAmt) = _removeLiquidity(\r\n            tokenA,\r\n            tokenB,\r\n            _amt,\r\n            unitAmtA,\r\n            unitAmtB\r\n        );\r\n\r\n        setUint(setIds[0], _amtA);\r\n        setUint(setIds[1], _amtB);\r\n        emitWithdraw(tokenA, tokenB, _amtA, _amtB, _uniAmt, getId, setIds);\r\n    }\r\n}\r\n\r\ncontract UniswapResolver is UniswapLiquidity {\r\n    event LogBuy(\r\n        address indexed buyToken,\r\n        address indexed sellToken,\r\n        uint256 buyAmt,\r\n        uint256 sellAmt,\r\n        uint256 getId,\r\n        uint256 setId\r\n    );\r\n\r\n    event LogSell(\r\n        address indexed buyToken,\r\n        address indexed sellToken,\r\n        uint256 buyAmt,\r\n        uint256 sellAmt,\r\n        uint256 getId,\r\n        uint256 setId\r\n    );\r\n\r\n    event LogBuyPath(\r\n        address indexed buyToken,\r\n        address indexed sellToken,\r\n        uint256 buyAmt,\r\n        uint256 sellAmt,\r\n        address[] path,\r\n        uint256 getId,\r\n        uint256 setId\r\n    );\r\n\r\n    event LogSellPath(\r\n        address indexed buyToken,\r\n        address indexed sellToken,\r\n        uint256 buyAmt,\r\n        uint256 sellAmt,\r\n        address[] path,\r\n        uint256 getId,\r\n        uint256 setId\r\n    );\r\n\r\n    function emitLogBuyPath(\r\n        address buyToken,\r\n        address sellToken,\r\n        uint256 buyAmt,\r\n        uint256 sellAmt,\r\n        address[] memory path,\r\n        uint256 getId,\r\n        uint256 setId\r\n    ) internal {\r\n        emit LogBuyPath(buyToken, sellToken, buyAmt, sellAmt, path, getId, setId);\r\n        bytes32 _eventCode = keccak256(\"LogBuyPath(address,address,uint256,uint256,address[],uint256,uint256)\");\r\n        bytes memory _eventParam = abi.encode(buyToken, sellToken, buyAmt, sellAmt, path, getId, setId);\r\n        (uint _type, uint _id) = connectorID();\r\n        EventInterface(getEventAddr()).emitEvent(_type, _id, _eventCode, _eventParam);\r\n    }\r\n\r\n    function emitLogSellPath(\r\n        address buyToken,\r\n        address sellToken,\r\n        uint256 buyAmt,\r\n        uint256 sellAmt,\r\n        address[] memory path,\r\n        uint256 getId,\r\n        uint256 setId\r\n    ) internal {\r\n        emit LogSellPath(buyToken, sellToken, buyAmt, sellAmt, path, getId, setId);\r\n        bytes32 _eventCode = keccak256(\"LogSellPath(address,address,uint256,uint256,address[],uint256,uint256)\");\r\n        bytes memory _eventParam = abi.encode(buyToken, sellToken, buyAmt, sellAmt, path, getId, setId);\r\n        (uint _type, uint _id) = connectorID();\r\n        EventInterface(getEventAddr()).emitEvent(_type, _id, _eventCode, _eventParam);\r\n    }\r\n\r\n    /**\r\n     * @dev Buy ETH/ERC20_Token.\r\n     * @param buyAddr buying token address.(For ETH: 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE)\r\n     * @param sellAddr selling token amount.(For ETH: 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE)\r\n     * @param buyAmt buying token amount.\r\n     * @param unitAmt unit amount of sellAmt/buyAmt with slippage.\r\n     * @param getId Get token amount at this ID from `InstaMemory` Contract.\r\n     * @param setId Set token amount at this ID in `InstaMemory` Contract.\r\n    */\r\n    function buy(\r\n        address buyAddr,\r\n        address sellAddr,\r\n        uint buyAmt,\r\n        uint unitAmt,\r\n        uint getId,\r\n        uint setId\r\n    ) external payable {\r\n        uint _buyAmt = getUint(getId, buyAmt);\r\n        (TokenInterface _buyAddr, TokenInterface _sellAddr) = changeEthAddress(buyAddr, sellAddr);\r\n        address[] memory paths = getPaths(address(_buyAddr), address(_sellAddr));\r\n\r\n        uint _slippageAmt = convert18ToDec(_sellAddr.decimals(),\r\n            wmul(unitAmt, convertTo18(_buyAddr.decimals(), _buyAmt)));\r\n\r\n        IUniswapV2Router02 router = IUniswapV2Router02(getUniswapAddr());\r\n\r\n        checkPair(router, paths);\r\n        uint _expectedAmt = getExpectedSellAmt(router, paths, _buyAmt);\r\n        require(_slippageAmt >= _expectedAmt, \"Too much slippage\");\r\n\r\n        convertEthToWeth(_sellAddr, _expectedAmt);\r\n        _sellAddr.approve(address(router), _expectedAmt);\r\n\r\n        uint _sellAmt = router.swapTokensForExactTokens(\r\n            _buyAmt,\r\n            _expectedAmt,\r\n            paths,\r\n            address(this),\r\n            now + 1\r\n        )[0];\r\n\r\n        convertWethToEth(_buyAddr, _buyAmt);\r\n\r\n        setUint(setId, _sellAmt);\r\n\r\n        emit LogBuy(buyAddr, sellAddr, _buyAmt, _sellAmt, getId, setId);\r\n        bytes32 _eventCode = keccak256(\"LogBuy(address,address,uint256,uint256,uint256,uint256)\");\r\n        bytes memory _eventParam = abi.encode(buyAddr, sellAddr, _buyAmt, _sellAmt, getId, setId);\r\n        (uint _type, uint _id) = connectorID();\r\n        EventInterface(getEventAddr()).emitEvent(_type, _id, _eventCode, _eventParam);\r\n    }\r\n\r\n    /**\r\n     * @dev Sell ETH/ERC20_Token.\r\n     * @param buyAddr buying token address.(For ETH: 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE)\r\n     * @param sellAddr selling token amount.(For ETH: 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE)\r\n     * @param sellAmt selling token amount.\r\n     * @param unitAmt unit amount of buyAmt/sellAmt with slippage.\r\n     * @param getId Get token amount at this ID from `InstaMemory` Contract.\r\n     * @param setId Set token amount at this ID in `InstaMemory` Contract.\r\n    */\r\n    function sell(\r\n        address buyAddr,\r\n        address sellAddr,\r\n        uint sellAmt,\r\n        uint unitAmt,\r\n        uint getId,\r\n        uint setId\r\n    ) external payable {\r\n        uint _sellAmt = getUint(getId, sellAmt);\r\n        (TokenInterface _buyAddr, TokenInterface _sellAddr) = changeEthAddress(buyAddr, sellAddr);\r\n        address[] memory paths = getPaths(address(_buyAddr), address(_sellAddr));\r\n\r\n        if (_sellAmt == uint(-1)) {\r\n            _sellAmt = sellAddr == getEthAddr() ? address(this).balance : _sellAddr.balanceOf(address(this));\r\n        }\r\n\r\n        uint _slippageAmt = convert18ToDec(_buyAddr.decimals(),\r\n            wmul(unitAmt, convertTo18(_sellAddr.decimals(), _sellAmt)));\r\n\r\n        IUniswapV2Router02 router = IUniswapV2Router02(getUniswapAddr());\r\n\r\n        checkPair(router, paths);\r\n        uint _expectedAmt = getExpectedBuyAmt(router, paths, _sellAmt);\r\n        require(_slippageAmt <= _expectedAmt, \"Too much slippage\");\r\n\r\n        convertEthToWeth(_sellAddr, _sellAmt);\r\n        _sellAddr.approve(address(router), _sellAmt);\r\n\r\n        uint _buyAmt = router.swapExactTokensForTokens(\r\n            _sellAmt,\r\n            _expectedAmt,\r\n            paths,\r\n            address(this),\r\n            now + 1\r\n        )[1];\r\n\r\n        convertWethToEth(_buyAddr, _buyAmt);\r\n\r\n        setUint(setId, _buyAmt);\r\n\r\n        emit LogSell(buyAddr, sellAddr, _buyAmt, _sellAmt, getId, setId);\r\n        bytes32 _eventCode = keccak256(\"LogSell(address,address,uint256,uint256,uint256,uint256)\");\r\n        bytes memory _eventParam = abi.encode(buyAddr, sellAddr, _buyAmt, _sellAmt, getId, setId);\r\n        (uint _type, uint _id) = connectorID();\r\n        EventInterface(getEventAddr()).emitEvent(_type, _id, _eventCode, _eventParam);\r\n    }\r\n\r\n    function buyViaPath(\r\n        address buyAddr,\r\n        address sellAddr,\r\n        uint buyAmt,\r\n        uint unitAmt,\r\n        address[] calldata paths,\r\n        uint getId,\r\n        uint setId\r\n    ) external payable {\r\n\r\n        uint _buyAmt = getUint(getId, buyAmt);\r\n\r\n        (TokenInterface _buyAddr, TokenInterface _sellAddr) = changeEthAddress(buyAddr, sellAddr);\r\n\r\n        IUniswapV2Router02 router = IUniswapV2Router02(getUniswapAddr());\r\n\r\n        uint _slippageAmt = convert18ToDec(_sellAddr.decimals(),\r\n            wmul(unitAmt, convertTo18(_buyAddr.decimals(), _buyAmt)));\r\n\r\n        checkPaths(router, paths);\r\n\r\n        uint _expectedAmt = getExpectedSellAmt(router, paths, _buyAmt);\r\n        require(_slippageAmt >= _expectedAmt, \"Too much slippage\");\r\n\r\n        convertEthToWeth(_sellAddr, _expectedAmt);\r\n        _sellAddr.approve(address(router), _expectedAmt);\r\n\r\n        uint _sellAmt = router.swapTokensForExactTokens(\r\n            buyAmt,\r\n            _expectedAmt,\r\n            paths,\r\n            address(this),\r\n            now + 1\r\n        )[0];\r\n\r\n        convertWethToEth(_buyAddr, buyAmt);\r\n\r\n        setUint(setId, _sellAmt);\r\n\r\n        emitLogBuyPath(buyAddr, sellAddr, _buyAmt, _sellAmt, paths, getId, setId);\r\n    }\r\n\r\n    function sellViaPath(\r\n        address buyAddr,\r\n        address sellAddr,\r\n        uint sellAmt,\r\n        uint unitAmt,\r\n        address[] calldata paths,\r\n        uint getId,\r\n        uint setId\r\n    ) external payable {\r\n\r\n        uint _sellAmt = getUint(getId, sellAmt);\r\n\r\n        (TokenInterface _buyAddr, TokenInterface _sellAddr) = changeEthAddress(buyAddr, sellAddr);\r\n\r\n        if (_sellAmt == uint(-1)) {\r\n            _sellAmt = sellAddr == getEthAddr() ? address(this).balance : _sellAddr.balanceOf(address(this));\r\n        }\r\n\r\n        uint _slippageAmt = convert18ToDec(_buyAddr.decimals(),\r\n            wmul(unitAmt, convertTo18(_sellAddr.decimals(), _sellAmt)));\r\n\r\n        IUniswapV2Router02 router = IUniswapV2Router02(getUniswapAddr());\r\n\r\n        checkPaths(router, paths);\r\n\r\n        uint _expectedAmt = getExpectedBuyAmt(router, paths, _sellAmt);\r\n        require(_slippageAmt <= _expectedAmt, \"Too much slippage\");\r\n\r\n        convertEthToWeth(_sellAddr, _sellAmt);\r\n        _sellAddr.approve(address(router), _sellAmt);\r\n\r\n        uint _buyAmt = router.swapExactTokensForTokens(\r\n            _sellAmt,\r\n            _expectedAmt,\r\n            paths,\r\n            address(this),\r\n            now + 1\r\n        )[1];\r\n\r\n        convertWethToEth(_buyAddr, _buyAmt);\r\n\r\n        setUint(setId, _buyAmt);\r\n\r\n        emitLogSellPath(buyAddr, sellAddr, _buyAmt, _sellAmt, paths, getId, setId);\r\n    }\r\n}\r\n\r\n\r\ncontract ConnectUniswapV2 is UniswapResolver {\r\n    string public name = \"UniswapV2-v1\";\r\n}",
@@ -3491,7 +3491,7 @@
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 4917,
+                                "referencedDeclaration": 5104,
                                 "src": "3318:4:3",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_UniswapHelpers_$2699",
@@ -3648,7 +3648,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4917,
+                              "referencedDeclaration": 5104,
                               "src": "3262:4:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_UniswapHelpers_$2699",
@@ -6301,10 +6301,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4874,
-                        4875
+                        5077,
+                        5078
                       ],
-                      "referencedDeclaration": 4875,
+                      "referencedDeclaration": 5078,
                       "src": "4907:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -6612,10 +6612,10 @@
                             "name": "require",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              4874,
-                              4875
+                              5077,
+                              5078
                             ],
-                            "referencedDeclaration": 4875,
+                            "referencedDeclaration": 5078,
                             "src": "5149:7:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -7060,10 +7060,10 @@
                             "name": "require",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              4874,
-                              4875
+                              5077,
+                              5078
                             ],
-                            "referencedDeclaration": 4875,
+                            "referencedDeclaration": 5078,
                             "src": "5308:7:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -11000,7 +11000,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4919,
+                              "referencedDeclaration": 5106,
                               "src": "7515:4:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_LiquidityHelpers_$3143",
@@ -11069,7 +11069,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4873,
+                            "referencedDeclaration": 5076,
                             "src": "7535:3:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -12352,7 +12352,7 @@
                                   "name": "this",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 4919,
+                                  "referencedDeclaration": 5106,
                                   "src": "8404:4:3",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_contract$_LiquidityHelpers_$3143",
@@ -12421,7 +12421,7 @@
                                 "name": "now",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 4873,
+                                "referencedDeclaration": 5076,
                                 "src": "8424:3:3",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
@@ -13593,10 +13593,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4874,
-                        4875
+                        5077,
+                        5078
                       ],
-                      "referencedDeclaration": 4875,
+                      "referencedDeclaration": 5078,
                       "src": "9016:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -13882,7 +13882,7 @@
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 4919,
+                                "referencedDeclaration": 5106,
                                 "src": "9204:4:3",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_LiquidityHelpers_$3143",
@@ -15074,7 +15074,7 @@
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4865,
+                      "referencedDeclaration": 5068,
                       "src": "10193:9:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -15265,7 +15265,7 @@
                         "name": "abi",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4858,
+                        "referencedDeclaration": 5061,
                         "src": "10320:3:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_abi",
@@ -15826,7 +15826,7 @@
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4865,
+                      "referencedDeclaration": 5068,
                       "src": "10975:9:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -16017,7 +16017,7 @@
                         "name": "abi",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4858,
+                        "referencedDeclaration": 5061,
                         "src": "11105:3:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_abi",
@@ -19142,7 +19142,7 @@
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4865,
+                      "referencedDeclaration": 5068,
                       "src": "15026:9:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -19333,7 +19333,7 @@
                         "name": "abi",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4858,
+                        "referencedDeclaration": 5061,
                         "src": "15146:3:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_abi",
@@ -20106,7 +20106,7 @@
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4865,
+                      "referencedDeclaration": 5068,
                       "src": "15711:9:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -20297,7 +20297,7 @@
                         "name": "abi",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4858,
+                        "referencedDeclaration": 5061,
                         "src": "15832:3:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_abi",
@@ -21959,10 +21959,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4874,
-                        4875
+                        5077,
+                        5078
                       ],
-                      "referencedDeclaration": 4875,
+                      "referencedDeclaration": 5078,
                       "src": "17312:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -22283,7 +22283,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4923,
+                              "referencedDeclaration": 5110,
                               "src": "17635:4:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_UniswapResolver_$4281",
@@ -22352,7 +22352,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4873,
+                            "referencedDeclaration": 5076,
                             "src": "17655:3:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -22835,7 +22835,7 @@
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4865,
+                      "referencedDeclaration": 5068,
                       "src": "17869:9:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -23009,7 +23009,7 @@
                         "name": "abi",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4858,
+                        "referencedDeclaration": 5061,
                         "src": "17975:3:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_abi",
@@ -24195,7 +24195,7 @@
                                       "name": "this",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 4923,
+                                      "referencedDeclaration": 5110,
                                       "src": "19262:4:3",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_contract$_UniswapResolver_$4281",
@@ -24315,7 +24315,7 @@
                                     "name": "this",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 4923,
+                                    "referencedDeclaration": 5110,
                                     "src": "19218:4:3",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_contract$_UniswapResolver_$4281",
@@ -25062,10 +25062,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4874,
-                        4875
+                        5077,
+                        5078
                       ],
-                      "referencedDeclaration": 4875,
+                      "referencedDeclaration": 5078,
                       "src": "19618:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -25386,7 +25386,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4923,
+                              "referencedDeclaration": 5110,
                               "src": "19933:4:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_UniswapResolver_$4281",
@@ -25455,7 +25455,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4873,
+                            "referencedDeclaration": 5076,
                             "src": "19953:3:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -25938,7 +25938,7 @@
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4865,
+                      "referencedDeclaration": 5068,
                       "src": "20167:9:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -26112,7 +26112,7 @@
                         "name": "abi",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4858,
+                        "referencedDeclaration": 5061,
                         "src": "20274:3:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_abi",
@@ -27527,10 +27527,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4874,
-                        4875
+                        5077,
+                        5078
                       ],
-                      "referencedDeclaration": 4875,
+                      "referencedDeclaration": 5078,
                       "src": "21201:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -27851,7 +27851,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4923,
+                              "referencedDeclaration": 5110,
                               "src": "21523:4:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_UniswapResolver_$4281",
@@ -27920,7 +27920,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4873,
+                            "referencedDeclaration": 5076,
                             "src": "21543:3:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -29055,7 +29055,7 @@
                                       "name": "this",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 4923,
+                                      "referencedDeclaration": 5110,
                                       "src": "22269:4:3",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_contract$_UniswapResolver_$4281",
@@ -29175,7 +29175,7 @@
                                     "name": "this",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 4923,
+                                    "referencedDeclaration": 5110,
                                     "src": "22225:4:3",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_contract$_UniswapResolver_$4281",
@@ -29922,10 +29922,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4874,
-                        4875
+                        5077,
+                        5078
                       ],
-                      "referencedDeclaration": 4875,
+                      "referencedDeclaration": 5078,
                       "src": "22628:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -30246,7 +30246,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4923,
+                              "referencedDeclaration": 5110,
                               "src": "22943:4:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_UniswapResolver_$4281",
@@ -30315,7 +30315,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4873,
+                            "referencedDeclaration": 5076,
                             "src": "22963:3:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -34546,7 +34546,7 @@
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 4917,
+                                "referencedDeclaration": 5104,
                                 "src": "3318:4:3",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_UniswapHelpers_$2699",
@@ -34703,7 +34703,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4917,
+                              "referencedDeclaration": 5104,
                               "src": "3262:4:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_UniswapHelpers_$2699",
@@ -37356,10 +37356,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4874,
-                        4875
+                        5077,
+                        5078
                       ],
-                      "referencedDeclaration": 4875,
+                      "referencedDeclaration": 5078,
                       "src": "4907:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -37667,10 +37667,10 @@
                             "name": "require",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              4874,
-                              4875
+                              5077,
+                              5078
                             ],
-                            "referencedDeclaration": 4875,
+                            "referencedDeclaration": 5078,
                             "src": "5149:7:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -38115,10 +38115,10 @@
                             "name": "require",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [
-                              4874,
-                              4875
+                              5077,
+                              5078
                             ],
-                            "referencedDeclaration": 4875,
+                            "referencedDeclaration": 5078,
                             "src": "5308:7:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -42055,7 +42055,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4919,
+                              "referencedDeclaration": 5106,
                               "src": "7515:4:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_LiquidityHelpers_$3143",
@@ -42124,7 +42124,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4873,
+                            "referencedDeclaration": 5076,
                             "src": "7535:3:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -43407,7 +43407,7 @@
                                   "name": "this",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 4919,
+                                  "referencedDeclaration": 5106,
                                   "src": "8404:4:3",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_contract$_LiquidityHelpers_$3143",
@@ -43476,7 +43476,7 @@
                                 "name": "now",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 4873,
+                                "referencedDeclaration": 5076,
                                 "src": "8424:3:3",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
@@ -44648,10 +44648,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4874,
-                        4875
+                        5077,
+                        5078
                       ],
-                      "referencedDeclaration": 4875,
+                      "referencedDeclaration": 5078,
                       "src": "9016:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -44937,7 +44937,7 @@
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 4919,
+                                "referencedDeclaration": 5106,
                                 "src": "9204:4:3",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_LiquidityHelpers_$3143",
@@ -46129,7 +46129,7 @@
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4865,
+                      "referencedDeclaration": 5068,
                       "src": "10193:9:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -46320,7 +46320,7 @@
                         "name": "abi",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4858,
+                        "referencedDeclaration": 5061,
                         "src": "10320:3:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_abi",
@@ -46881,7 +46881,7 @@
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4865,
+                      "referencedDeclaration": 5068,
                       "src": "10975:9:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -47072,7 +47072,7 @@
                         "name": "abi",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4858,
+                        "referencedDeclaration": 5061,
                         "src": "11105:3:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_abi",
@@ -50197,7 +50197,7 @@
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4865,
+                      "referencedDeclaration": 5068,
                       "src": "15026:9:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -50388,7 +50388,7 @@
                         "name": "abi",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4858,
+                        "referencedDeclaration": 5061,
                         "src": "15146:3:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_abi",
@@ -51161,7 +51161,7 @@
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4865,
+                      "referencedDeclaration": 5068,
                       "src": "15711:9:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -51352,7 +51352,7 @@
                         "name": "abi",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4858,
+                        "referencedDeclaration": 5061,
                         "src": "15832:3:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_abi",
@@ -53014,10 +53014,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4874,
-                        4875
+                        5077,
+                        5078
                       ],
-                      "referencedDeclaration": 4875,
+                      "referencedDeclaration": 5078,
                       "src": "17312:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -53338,7 +53338,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4923,
+                              "referencedDeclaration": 5110,
                               "src": "17635:4:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_UniswapResolver_$4281",
@@ -53407,7 +53407,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4873,
+                            "referencedDeclaration": 5076,
                             "src": "17655:3:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -53890,7 +53890,7 @@
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4865,
+                      "referencedDeclaration": 5068,
                       "src": "17869:9:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -54064,7 +54064,7 @@
                         "name": "abi",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4858,
+                        "referencedDeclaration": 5061,
                         "src": "17975:3:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_abi",
@@ -55250,7 +55250,7 @@
                                       "name": "this",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 4923,
+                                      "referencedDeclaration": 5110,
                                       "src": "19262:4:3",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_contract$_UniswapResolver_$4281",
@@ -55370,7 +55370,7 @@
                                     "name": "this",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 4923,
+                                    "referencedDeclaration": 5110,
                                     "src": "19218:4:3",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_contract$_UniswapResolver_$4281",
@@ -56117,10 +56117,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4874,
-                        4875
+                        5077,
+                        5078
                       ],
-                      "referencedDeclaration": 4875,
+                      "referencedDeclaration": 5078,
                       "src": "19618:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -56441,7 +56441,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4923,
+                              "referencedDeclaration": 5110,
                               "src": "19933:4:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_UniswapResolver_$4281",
@@ -56510,7 +56510,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4873,
+                            "referencedDeclaration": 5076,
                             "src": "19953:3:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -56993,7 +56993,7 @@
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4865,
+                      "referencedDeclaration": 5068,
                       "src": "20167:9:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -57167,7 +57167,7 @@
                         "name": "abi",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4858,
+                        "referencedDeclaration": 5061,
                         "src": "20274:3:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_abi",
@@ -58582,10 +58582,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4874,
-                        4875
+                        5077,
+                        5078
                       ],
-                      "referencedDeclaration": 4875,
+                      "referencedDeclaration": 5078,
                       "src": "21201:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -58906,7 +58906,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4923,
+                              "referencedDeclaration": 5110,
                               "src": "21523:4:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_UniswapResolver_$4281",
@@ -58975,7 +58975,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4873,
+                            "referencedDeclaration": 5076,
                             "src": "21543:3:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -60110,7 +60110,7 @@
                                       "name": "this",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 4923,
+                                      "referencedDeclaration": 5110,
                                       "src": "22269:4:3",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_contract$_UniswapResolver_$4281",
@@ -60230,7 +60230,7 @@
                                     "name": "this",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 4923,
+                                    "referencedDeclaration": 5110,
                                     "src": "22225:4:3",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_contract$_UniswapResolver_$4281",
@@ -60977,10 +60977,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4874,
-                        4875
+                        5077,
+                        5078
                       ],
-                      "referencedDeclaration": 4875,
+                      "referencedDeclaration": 5078,
                       "src": "22628:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -61301,7 +61301,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4923,
+                              "referencedDeclaration": 5110,
                               "src": "22943:4:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_UniswapResolver_$4281",
@@ -61370,7 +61370,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4873,
+                            "referencedDeclaration": 5076,
                             "src": "22963:3:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -62143,7 +62143,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.4",
-  "updatedAt": "2020-10-07T04:50:16.083Z",
+  "updatedAt": "2020-10-09T06:24:37.459Z",
   "devdoc": {
     "methods": {
       "connectorID()": {

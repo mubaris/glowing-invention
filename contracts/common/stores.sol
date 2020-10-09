@@ -16,14 +16,14 @@ contract Stores {
    * @dev Return memory variable address
    */
   function getMemoryAddr() internal pure returns (address) {
-    return 0x8a5419CfC711B2343c17a6ABf4B2bAFaBb06957F; // InstaMemory Address
+    return 0xcDC4f66957993354E36556764F3E342b58dAd3EB; // InstaMemory Address
   }
 
   /**
    * @dev Return InstaEvent Address.
    */
   function getEventAddr() internal pure returns (address) {
-    return 0x2af7ea6Cb911035f3eb1ED895Cb6692C39ecbA97; // InstaEvent Address
+    return 0xdc68767106DC94eC9F2C997852a35E0e8D82Bd98; // InstaEvent Address
   }
 
   /**

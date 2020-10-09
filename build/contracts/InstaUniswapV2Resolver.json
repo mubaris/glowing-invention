@@ -38,7 +38,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -72,7 +73,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -106,7 +108,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -119,7 +122,8 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -168,7 +172,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -217,7 +222,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -275,7 +281,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -314,7 +321,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -363,7 +371,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -376,7 +385,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.6.0+commit.26b70077\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"buyAddr\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"sellAddr\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"sellAmt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"slippage\",\"type\":\"uint256\"}],\"name\":\"getBuyAmount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"buyAmt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"unitAmt\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"tokenA\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"tokenB\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amtA\",\"type\":\"uint256\"}],\"name\":\"getDepositAmount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"amtB\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"unitAmt\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"tokenA\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"tokenB\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amtA\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amtB\",\"type\":\"uint256\"}],\"name\":\"getDepositAmountNewPool\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"unitAmt\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getEthAddr\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"buyAddr\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"sellAddr\",\"type\":\"address\"},{\"internalType\":\"address[]\",\"name\":\"tokens\",\"type\":\"address[]\"},{\"internalType\":\"uint256\",\"name\":\"buyAmt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"slippage\",\"type\":\"uint256\"}],\"name\":\"getOptimalBuyPath\",\"outputs\":[{\"internalType\":\"address[]\",\"name\":\"paths\",\"type\":\"address[]\"},{\"internalType\":\"uint256\",\"name\":\"sellAmt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"unitAmt\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"buyAddr\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"sellAddr\",\"type\":\"address\"},{\"internalType\":\"address[]\",\"name\":\"tokens\",\"type\":\"address[]\"},{\"internalType\":\"uint256\",\"name\":\"sellAmt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"slippage\",\"type\":\"uint256\"}],\"name\":\"getOptimalSellPath\",\"outputs\":[{\"internalType\":\"address[]\",\"name\":\"paths\",\"type\":\"address[]\"},{\"internalType\":\"uint256\",\"name\":\"buyAmt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"unitAmt\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"components\":[{\"internalType\":\"address\",\"name\":\"tokenA\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"tokenB\",\"type\":\"address\"}],\"internalType\":\"struct Resolver.TokenPair[]\",\"name\":\"tokenPairs\",\"type\":\"tuple[]\"}],\"name\":\"getPosition\",\"outputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"tokenAShareAmt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"tokenBShareAmt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"uniAmt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalSupply\",\"type\":\"uint256\"}],\"internalType\":\"struct Resolver.PoolData[]\",\"name\":\"\",\"type\":\"tuple[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"buyAddr\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"sellAddr\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"buyAmt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"slippage\",\"type\":\"uint256\"}],\"name\":\"getSellAmount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"sellAmt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"unitAmt\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"tokenA\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"tokenB\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"uniAmt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"slippage\",\"type\":\"uint256\"}],\"name\":\"getWithdrawAmounts\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"amtA\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amtB\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"unitAmtA\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"unitAmtB\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{\"getEthAddr()\":{\"details\":\"get Ethereum address\"}}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/e/Projects/tests/uni-resolver/contracts/Uniswap.sol\":\"InstaUniswapV2Resolver\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/e/Projects/tests/uni-resolver/contracts/Uniswap.sol\":{\"keccak256\":\"0x409482a340ee40cca5292c242bda2861bed943eeab068fa818ade991bb158b7c\",\"urls\":[\"bzz-raw://65e22c3399587dcea7ca24b5bfff9eb8ea7f937f06b560cccdeba0845a29d638\",\"dweb:/ipfs/QmUgzszNv2vupchQsvqmkSquGPYL6YRCaRhY3CDne8esmt\"]}},\"version\":1}",
@@ -56084,12 +56094,13 @@
     "4": {
       "events": {},
       "links": {},
-      "address": "0x259fEC9063a53BeF8f7d6616003D6ae1376BbeA5",
-      "transactionHash": "0x96bd624862a5001eabc677004bc951ed20e30eda969522024ac2e9f0cca90e2f"
+      "address": "0xd843dCf40b03a9311e5E3C3563EDD744F69D8F0a",
+      "transactionHash": "0x463a4a554f058c815d054a083354c7fdb1eead8b0cea52a292c60c9768c05fff"
     }
   },
   "schemaVersion": "3.2.4",
-  "updatedAt": "2020-10-07T04:50:15.778Z",
+  "updatedAt": "2020-10-09T06:21:57.836Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {
       "getEthAddr()": {

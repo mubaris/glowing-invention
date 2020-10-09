@@ -1,8 +1,8 @@
 require('dotenv').config()
 const ethers = require("ethers");
 
-const abi = [{"inputs":[{"internalType":"address","name":"buyAddr","type":"address"},{"internalType":"address","name":"sellAddr","type":"address"},{"internalType":"uint256","name":"sellAmt","type":"uint256"},{"internalType":"uint256","name":"slippage","type":"uint256"}],"name":"getBuyAmount","outputs":[{"internalType":"uint256","name":"buyAmt","type":"uint256"},{"internalType":"uint256","name":"unitAmt","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"tokenA","type":"address"},{"internalType":"address","name":"tokenB","type":"address"},{"internalType":"uint256","name":"amtA","type":"uint256"}],"name":"getDepositAmount","outputs":[{"internalType":"uint256","name":"amtB","type":"uint256"},{"internalType":"uint256","name":"unitAmt","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"tokenA","type":"address"},{"internalType":"address","name":"tokenB","type":"address"},{"internalType":"uint256","name":"amtA","type":"uint256"},{"internalType":"uint256","name":"amtB","type":"uint256"}],"name":"getDepositAmountNewPool","outputs":[{"internalType":"uint256","name":"unitAmt","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"getEthAddr","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"pure","type":"function"},{"inputs":[{"internalType":"address","name":"buyAddr","type":"address"},{"internalType":"address","name":"sellAddr","type":"address"},{"internalType":"address[]","name":"tokens","type":"address[]"},{"internalType":"uint256","name":"buyAmt","type":"uint256"}],"name":"getOptimalBuyPath","outputs":[{"internalType":"address[]","name":"paths","type":"address[]"},{"internalType":"uint256","name":"sellAmt","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"buyAddr","type":"address"},{"internalType":"address","name":"sellAddr","type":"address"},{"internalType":"address[]","name":"tokens","type":"address[]"},{"internalType":"uint256","name":"sellAmt","type":"uint256"}],"name":"getOptimalSellPath","outputs":[{"internalType":"address[]","name":"paths","type":"address[]"},{"internalType":"uint256","name":"buyAmt","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"components":[{"internalType":"address","name":"tokenA","type":"address"},{"internalType":"address","name":"tokenB","type":"address"}],"internalType":"struct Resolver.TokenPair[]","name":"tokenPairs","type":"tuple[]"}],"name":"getPosition","outputs":[{"components":[{"internalType":"uint256","name":"tokenAShareAmt","type":"uint256"},{"internalType":"uint256","name":"tokenBShareAmt","type":"uint256"},{"internalType":"uint256","name":"uniAmt","type":"uint256"},{"internalType":"uint256","name":"totalSupply","type":"uint256"}],"internalType":"struct Resolver.PoolData[]","name":"","type":"tuple[]"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"buyAddr","type":"address"},{"internalType":"address","name":"sellAddr","type":"address"},{"internalType":"uint256","name":"buyAmt","type":"uint256"},{"internalType":"uint256","name":"slippage","type":"uint256"}],"name":"getSellAmount","outputs":[{"internalType":"uint256","name":"sellAmt","type":"uint256"},{"internalType":"uint256","name":"unitAmt","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"tokenA","type":"address"},{"internalType":"address","name":"tokenB","type":"address"},{"internalType":"uint256","name":"uniAmt","type":"uint256"},{"internalType":"uint256","name":"slippage","type":"uint256"}],"name":"getWithdrawAmounts","outputs":[{"internalType":"uint256","name":"amtA","type":"uint256"},{"internalType":"uint256","name":"amtB","type":"uint256"},{"internalType":"uint256","name":"unitAmtA","type":"uint256"},{"internalType":"uint256","name":"unitAmtB","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"}];
-const addr = "0x259fEC9063a53BeF8f7d6616003D6ae1376BbeA5";;
+const abi = [{"inputs":[{"internalType":"address","name":"buyAddr","type":"address"},{"internalType":"address","name":"sellAddr","type":"address"},{"internalType":"uint256","name":"sellAmt","type":"uint256"},{"internalType":"uint256","name":"slippage","type":"uint256"}],"name":"getBuyAmount","outputs":[{"internalType":"uint256","name":"buyAmt","type":"uint256"},{"internalType":"uint256","name":"unitAmt","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"tokenA","type":"address"},{"internalType":"address","name":"tokenB","type":"address"},{"internalType":"uint256","name":"amtA","type":"uint256"}],"name":"getDepositAmount","outputs":[{"internalType":"uint256","name":"amtB","type":"uint256"},{"internalType":"uint256","name":"unitAmt","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"tokenA","type":"address"},{"internalType":"address","name":"tokenB","type":"address"},{"internalType":"uint256","name":"amtA","type":"uint256"},{"internalType":"uint256","name":"amtB","type":"uint256"}],"name":"getDepositAmountNewPool","outputs":[{"internalType":"uint256","name":"unitAmt","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"getEthAddr","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"pure","type":"function"},{"inputs":[{"internalType":"address","name":"buyAddr","type":"address"},{"internalType":"address","name":"sellAddr","type":"address"},{"internalType":"address[]","name":"tokens","type":"address[]"},{"internalType":"uint256","name":"buyAmt","type":"uint256"},{"internalType":"uint256","name":"slippage","type":"uint256"}],"name":"getOptimalBuyPath","outputs":[{"internalType":"address[]","name":"paths","type":"address[]"},{"internalType":"uint256","name":"sellAmt","type":"uint256"},{"internalType":"uint256","name":"unitAmt","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"buyAddr","type":"address"},{"internalType":"address","name":"sellAddr","type":"address"},{"internalType":"address[]","name":"tokens","type":"address[]"},{"internalType":"uint256","name":"sellAmt","type":"uint256"},{"internalType":"uint256","name":"slippage","type":"uint256"}],"name":"getOptimalSellPath","outputs":[{"internalType":"address[]","name":"paths","type":"address[]"},{"internalType":"uint256","name":"buyAmt","type":"uint256"},{"internalType":"uint256","name":"unitAmt","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"components":[{"internalType":"address","name":"tokenA","type":"address"},{"internalType":"address","name":"tokenB","type":"address"}],"internalType":"struct Resolver.TokenPair[]","name":"tokenPairs","type":"tuple[]"}],"name":"getPosition","outputs":[{"components":[{"internalType":"uint256","name":"tokenAShareAmt","type":"uint256"},{"internalType":"uint256","name":"tokenBShareAmt","type":"uint256"},{"internalType":"uint256","name":"uniAmt","type":"uint256"},{"internalType":"uint256","name":"totalSupply","type":"uint256"}],"internalType":"struct Resolver.PoolData[]","name":"","type":"tuple[]"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"buyAddr","type":"address"},{"internalType":"address","name":"sellAddr","type":"address"},{"internalType":"uint256","name":"buyAmt","type":"uint256"},{"internalType":"uint256","name":"slippage","type":"uint256"}],"name":"getSellAmount","outputs":[{"internalType":"uint256","name":"sellAmt","type":"uint256"},{"internalType":"uint256","name":"unitAmt","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"tokenA","type":"address"},{"internalType":"address","name":"tokenB","type":"address"},{"internalType":"uint256","name":"uniAmt","type":"uint256"},{"internalType":"uint256","name":"slippage","type":"uint256"}],"name":"getWithdrawAmounts","outputs":[{"internalType":"uint256","name":"amtA","type":"uint256"},{"internalType":"uint256","name":"amtB","type":"uint256"},{"internalType":"uint256","name":"unitAmtA","type":"uint256"},{"internalType":"uint256","name":"unitAmtB","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"}];
+const addr = "0xd843dCf40b03a9311e5E3C3563EDD744F69D8F0a";;
 
 const network = "rinkeby";
 
@@ -22,17 +22,22 @@ const tokens = [
     weth,
     dai,
     usdc,
-    usdt
+    usdt,
+    mkr
 ];
 
 const printer = function(result) {
     const path = [];
     const buyAmt = result.buyAmt;
     const sellAmt = result.sellAmt;
+    const unitAmt = result.unitAmt;
 
     for (let [index, token] of result.paths.entries()) {
         token = token.toLowerCase();
         switch (token) {
+            case zrx:
+                path.push("zrx");
+                break;
             case weth:
                 path.push("weth");
                 break;
@@ -51,9 +56,6 @@ const printer = function(result) {
             case wbtc:
                 path.push("wbtc");
                 break;
-            case zrx:
-                path.push("zrx");
-                break;
             default:
                 break;
         }
@@ -62,50 +64,53 @@ const printer = function(result) {
 
 
     if (buyAmt) {
-        console.log(path, buyAmt.toString());
+        console.log(path, buyAmt.toString(), unitAmt.toString());
     } else {
-        console.log(path, sellAmt.toString());
+        console.log(path, sellAmt.toString(), unitAmt.toString());
     }
 }
 
 const runner = async function() {
-    let result = await contract.getOptimalSellPath(usdc, mkr, tokens, 12456345);
+
+    const slippage = String(10 ** 16);
+
+    // let result = await contract.getOptimalSellPath(usdc, mkr, tokens, 12456345, slippage);
+
+    // printer(result);
+
+    // result = await contract.getOptimalBuyPath(usdt, usdc, tokens, 98654, slippage);
+
+    // printer(result);
+
+    // result = await contract.getOptimalBuyPath(mkr, usdt, tokens, 12344578623, slippage);
+
+    // printer(result);
+
+    // result = await contract.getOptimalSellPath(dai, mkr, tokens, 12456345, slippage);
+
+    // printer(result);
+
+    // result = await contract.getOptimalBuyPath(wbtc, weth, tokens, 123457, slippage);
+
+    // printer(result);
+
+    // result = await contract.getOptimalSellPath(dai, wbtc, tokens, 12795456, slippage);
+
+    // printer(result);
+
+    // result = await contract.getOptimalBuyPath(zrx, usdt, tokens, 1234554345, slippage);
+
+    // printer(result);
+
+    // result = await contract.getOptimalSellPath(mkr, zrx, tokens, 127955645, slippage);
+
+    // printer(result);
+
+    let result = await contract.getOptimalBuyPath(mkr, weth, tokens, 123545, slippage);
 
     printer(result);
 
-    result = await contract.getOptimalBuyPath(usdt, usdc, tokens, 98654);
-
-    printer(result);
-
-    result = await contract.getOptimalBuyPath(mkr, usdt, tokens, 12344578623);
-
-    printer(result);
-
-    result = await contract.getOptimalSellPath(dai, mkr, tokens, 12456345);
-
-    printer(result);
-
-    result = await contract.getOptimalBuyPath(wbtc, usdt, tokens, 123457);
-
-    printer(result);
-
-    result = await contract.getOptimalSellPath(dai, wbtc, tokens, 12795456);
-
-    printer(result);
-
-    result = await contract.getOptimalBuyPath(zrx, usdt, tokens, 1234554345);
-
-    printer(result);
-
-    result = await contract.getOptimalSellPath(mkr, zrx, tokens, 127955645);
-
-    printer(result);
-
-    result = await contract.getOptimalBuyPath(mkr, weth, tokens, 123545);
-
-    printer(result);
-
-    result = await contract.getOptimalSellPath(dai, usdt, tokens, 19645);
+    result = await contract.getOptimalSellPath(dai, weth, tokens, String(10**16), slippage);
 
     printer(result);
 }
